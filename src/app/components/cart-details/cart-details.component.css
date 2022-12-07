@@ -1,0 +1,9 @@
+.btn-link {
+    background-color: #0d6efd;
+    color: white;
+    margin: 10px;
+}
+
+.btn-link:hover {
+    background: #0b5ed7;
+}
