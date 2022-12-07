@@ -38,7 +38,7 @@
           <div class="col-md-5"></div>
           <div class="col-md-7">
             <div class="row">
-              <div class="col-md-7" style="padding-left: 30%">
+              <div class="col-md-9" style="padding-left: 30%">
                 <ngb-pagination
                   [(page)]="pageNumber"
                   [pageSize]="pageSize"
@@ -49,14 +49,14 @@
                 >
                 </ngb-pagination>
               </div>
-              <div class="col-md-5">
+              <div class="col-md-3">
                 <span class="mr-2">Page Size </span>
                 <select
                   #myPageSelect
                   (change)="updatePageSize(myPageSelect.value)"
                 >
-                  <option selected value="5">5</option>
-                  <option value="10">10</option>
+                  <option value="5">5</option>
+                  <option selected value="10">10</option>
                   <option value="20">20</option>
                   <option value="50">50</option>
                 </select>
